@@ -1,1 +1,13 @@
-1. -------> nCr = nC(n-r)
+1.  nCk = nC(n-k)
+2.  nCk = (n-1)Ck + (n-1)C(k-1)
+
+Let's Consider the Pascal's Triangle
+    k=0 1 2 3 4 ......Column wise 
+n=0   1
+n=1   1 1
+n=2   1 2 1
+n=3   1 3 3 1
+n=4   1 4 6 4 1
+
+n ----> Row Wise, Here (RowIndex)C(ColumnIndex) indicates the corresponding value in the Pascal's Triangle.
+
